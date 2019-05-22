@@ -1,0 +1,33 @@
+body { padding-top: 10px;
+    background-color: white}
+#pageBody{
+    background-size: 100% 50%;
+}h1,h2,p{
+     font-family: "Microsoft YaHei UI";
+     color: white;
+ }p1{
+    color: white;
+   }p2,p8{
+           font-family: "Microsoft YaHei UI";
+           color: black;
+    font-size: 30px;
+       }
+p3,p4,p5,p6,p7{
+    font-family: "Microsoft YaHei UI";
+    color: black;
+    font-size: 20px;
+}
+#row1{
+    background-image: url("3chromeballs.png");
+    background-repeat: no-repeat;
+}
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.container-fluid{ padding-right: 0;
+    padding-left: 0;}<!--修改container容器和栅格的间距为0，否则会有留白-->

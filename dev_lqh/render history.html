@@ -5,14 +5,14 @@
     <title>rander history!</title>
     <!--引入 Css 文件-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="render%20history.css">
     <!--引入 jQuery 文件-->
     <script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
     <!--引入 bootstrap 框架 js 文件-->
     <script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
-
-
+<body>
 <!--以下是用祚竑做的导航栏-->
 <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
     <div class="container-fluid">
@@ -23,7 +23,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse ">
             <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="#">定义 <span class="sr-only">(current)</span></a></li>
+                <li type="button"><a href="#">定义 <span class="sr-only">(current)</span></a></li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">原理
@@ -41,12 +41,12 @@
                         <li><a href="#">离线渲染</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">来龙去脉
                         <!--这是一个小三角符号--><span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">实时渲染</a></li>
-                        <li><a href="#">离线渲染</a></li>
+                        <li><a class="active" href="#">发展概述</a></li>
+                        <li><a href="#">重要思想年代表</a></li>
                     </ul>
                 </li>
             </ul>
@@ -54,10 +54,49 @@
     </div>
 </nav>
 
+<div class="container-fluid" >
+    <div id="row1" class="row no-gutter" style= "background-size:cover;height:900px">
+        <div class="col-lg-4">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h1 class="text-center">DEVELOPMENT</h1>
+            <h2 class="text-center">STEP BY STEP TO THE TOP</h2>
+        </div>
+        <div class="col-lg-6"></div>
+        <div class="col-lg-2">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p1 class="text-center">一张应用了光线追踪的图片</p1>
+        </div>
+    </div>
+    <div id="row2" class="row no-gutter" style="background-size: cover;height: 550px;">
+        <div class="col-lg-2">
+            <img src="oldworldmap.png" class="img-responsive" alt="Responsive image"><br><p3 class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;古代地图</p3>
+            <br><br><br><br><br>
+            <img src="apaintingofwaterandmountain.png" class="img-responsive" alt="Responsive image"><br><p6 class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国画山水用墨渲染意境</p6>
+        </div>
+        <div class="col-lg-2">
+            <img src="baguatu.png" class="img-responsive" alt="Responsive image"><br><p5 class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国八卦</p5>
+        </div>
+        <div class="col-lg-8">
+            <br><br><br>
+            <p2 class="text-center">在计算机出现以前，我们用图画和文字的方式尽量使我们要表达的想法形象化，“渲染”这个词就来源于绘画与文学。渲染指的是通过一些方法，把想要表达的事物变得更形象和更有感染力，让人更容易理解并有更深刻的记忆，这是渲染的目的和出发点。左边的这两张图片用图像对要说明的事物进行形象化渲染,会让人们理解起来更直观。
+            <br><br><br><br><br>在漫长的历史长河中，我们想到很多绘画方法和文学表达方式，来渲染我们的想法。
+            </p2>
+        </div>
+    </div>
+    <div id="row3" class="row no-gutter" style="background-size: cover;height: 450px">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-3">
+            <br><br><br><br>
+            <img src="theimageofearlycomputer.png"  class="img-responsive" alt="Responsive image"><br><p7 class="text-center">早期的计算机生成图像</p7>
+        </div>
+        <div class="col-lg-8">
+            <br><br><br><br><br>
+            <p8 class="text-center">虽然我们今天的计算机渲染可以非常直观甚至是和现实世界一样形象化再现我们的想法，但是在计算机发展之初，计算机的渲染效果很简单，因为当时的计算能力非常有限，当时许多大公司都不相信用计算机能够制作出和实拍一样真实而感人的画面。</p8>
+        </div>
+    </div>
+</div>
 
 
-
-<body>
 
 </body>
 </html>
