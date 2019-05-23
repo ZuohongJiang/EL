@@ -1,0 +1,58 @@
+body { padding-top: 50px;
+background-color:#303133}
+
+h1,h2,p{
+     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+     color: #FFFFFF;
+ }
+h3{
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    color:#242424;
+    font-weight: lighter;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover{
+    color:#FFFFFF;
+}
+.carouselLink{
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.UnderLink{
+    font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif; ;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+#row1{
+     background-image: url("dragontrainer1.jpg");
+     background-repeat: no-repeat;
+ }
+.bottomNav{
+     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+     color:#FFFFFF;
+     font-weight: lighter;
+     font-size:20px;
+ }
+.row.no-gutter {
+     margin-left: 0;
+     margin-right: 0;
+
+ }
+.row.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+
+
+}
+.transparent{
+    filter: alpha(opacity=40);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+
+}
+.container-fluid{ padding-right: 0;
+    padding-left: 0;}<!--修改container容器和栅格的间距为0，否则会有留白-->

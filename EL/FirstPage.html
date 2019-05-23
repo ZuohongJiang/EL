@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="FirstPage.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <!--以下是导航栏-->
+    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a  class="navbar-brand" href="#" style="font-size: x-large">
+                    <img src="SElogo.png" width="2%" style="display: inline"/>&nbsp;温柔朴实善良的西南人民
+                    </a>
+        </div>
+            <div id="navbar" class="collapse navbar-collapse ">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#" style="font-size: medium">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#" style="font-size: medium">定义 <span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  style="font-size: medium">原理
+                            <!--这是一个小三角符号--> <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">数理基础</a></li>
+                            <li><a href="#">实现方法</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  style="font-size: medium">应用
+                        <!--这是一个小三角符号-->  <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">实时渲染</a></li>
+                        <li><a href="#">离线渲染</a></li>
+                    </ul>
+                </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  style="font-size: medium">来龙去脉
+                            <!--这是一个小三角符号--><span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">历史</a></li>
+                            <li><a href="#">现在</a></li>
+                            <li><a href="#">未来</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--以下是根据Bootstrap的栅格功能对页面进行排版-->
+<div  class="container-fluid" >
+    <div id="row1" class="row no-gutter" style="background-size:cover;height:950px" >
+        <div class="col-lg-4">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h1 class="text-center">RENDER
+                </h1>
+            <h2 class="text-center">
+                BRING THE DREAM INTO REALITY
+            </h2>
+
+            <div style="text-align: center;"><button type="button" class="btn-default btn-lg transparent text-center">START YOUR JOURNEY</button></div>
+            <br></div>
+        </div>
+    <div class="row no-gutter" style="background-color:#e8e8e8">
+        <div class="col-lg-4"> </div>
+        <div class="col-lg-4">
+            <h4 style="text-align: center">//Why Render?</h4>
+            <h1 style="text-align: center;font-weight: 900;color: #303133;font-size: 50px;">"RENDER IS THE KEY TO CREATE AN INCREDIBLE WORLD"</h1>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+    <!--以下为一个Bootstrap图片轮播(carousel)组件-->
+    <div id="row2" class="row no-gutter" style="height: 804px">
+        <div class="col-lg-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width:100%;" >
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox" >
+                    <div class="item active">
+                        <img src="Bighero6.jpg"  style="width: 100%" alt="图片加载失败">
+                        <div class="carousel-caption">
+                            <a href="#" class="carouselLink">What is render?</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Bighero6(1).jpg" alt="图片加载失败" style="width: 100%">
+                        <div class="carousel-caption">
+                            <a href="#" class="carouselLink">Secret behind render</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Bighero6(2).jpg" alt="图片加载失败" style="width:100%">
+                        <div class="carousel-caption">
+                            <a href="#" class="carouselLink">Application</a>
+                    </div>
+                    </div>
+                        <div class="item">
+                            <img src="BigHero6(3).jpg" alt="图片加载失败" style="width: 100%">
+                            <div class="carousel-caption">
+                                <a href="#" class="carouselLink">Past Now Future</a>
+                            </div>
+                        </div>
+
+                </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+            <script>$('.carousel').carousel({
+              interval:3000
+            })</script>
+
+    <div id="row3" class="row no-gutter" style="background-color:#444444;height: 100px">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-3">
+            <br>
+                <a href="#" class="UnderLink">
+                    <img src="SElogo.png" style="width: 6%;"> 温柔朴实善良的西南人民</a>
+                <br>
+                <a href="#" class="UnderLink"><img src="github.svg" style="width: 6%"> Github</a></div>
+        <div class="col-lg-4" style="border">
+            <br>
+       <div style="text-align: center;"> <a class="bottomNav" href="#" > 开发历程 |</a><a  class="bottomNav" href="#"> 鸣谢列表 |</a><a class="bottomNav"href="#"> 参考资料 |</a><a class="bottomNav" href="#"> 联系我们 </a>
+       </div>
+
+           </div>
+        <div class="col-lg-1"> </div>
+        <div class="col-lg-3">
+            <br>
+            <div >
+                <a href="https://v3.bootcss.com/" class="UnderLink">
+            <img src="bootstrap-solid.png"  style="width: 6%;"> Bootstrap
+                </a>
+                <br>
+                <a href="https://cn.vuejs.org/" class="UnderLink">
+                    <img src="vue.js.png" style="width:6%;"> Vue.js
+                </a>
+            </div>
+        </div>
+    </div>
+        </div>
+</div>
+
+</div>
+</body>
+</html>
