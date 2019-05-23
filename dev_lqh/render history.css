@@ -7,19 +7,31 @@ body { padding-top: 10px;
      color: white;
  }p1{
     color: white;
-   }p2,p8{
+   }p2,p8,p9,p10,p12,p16{
            font-family: "Microsoft YaHei UI";
            color: black;
     font-size: 30px;
        }
-p3,p4,p5,p6,p7{
+p3,p4,p5,p6,p7,p11,p13,p14,p15{
     font-family: "Microsoft YaHei UI";
     color: black;
     font-size: 20px;
-}
+}/*p9{
+     font-family: "Microsoft YaHei UI";
+     color: white;
+     font-size: 30px;
+ }*/
 #row1{
     background-image: url("3chromeballs.png");
     background-repeat: no-repeat;
+}
+#row6{
+    background-repeat: no-repeat;
+    background-image: url("renderOfEscapingEarth.jpg");
+}
+#row8 {
+    background-repeat: no-repeat;
+    background-image: url("gameRender.jpg");
 }
 .row.no-gutter {
     margin-left: 0;
