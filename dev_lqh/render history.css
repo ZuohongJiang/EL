@@ -1,5 +1,5 @@
 body { padding-top: 10px;
-    background-color: white}
+    background-color:#F7F7F7}
 #pageBody{
     background-size: 100% 50%;
 }h1,h2,p{
@@ -7,11 +7,17 @@ body { padding-top: 10px;
      color: white;
  }p1{
     color: white;
-   }p2,p8,p9,p10,p12,p16{
+   }
+p2,p8,p9,p10,p12,p16,p17,p18,p19{
            font-family: "Microsoft YaHei UI";
            color: black;
     font-size: 30px;
-       }
+}
+p20{
+    font-family: "Microsoft YaHei UI";
+    color: black;
+    font-size: 50px;
+    }
 p3,p4,p5,p6,p7,p11,p13,p14,p15{
     font-family: "Microsoft YaHei UI";
     color: black;
@@ -33,6 +39,36 @@ p3,p4,p5,p6,p7,p11,p13,p14,p15{
     background-repeat: no-repeat;
     background-image: url("gameRender.jpg");
 }
+#row10 {
+    background-repeat: no-repeat;
+    background-image: url("Unreal+Engine.jpg");
+}
+#row12 {
+    background-repeat: no-repeat;
+    background-image: url("Unreal+Engine2.jpg");
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover{
+    color:#FFFFFF;
+}
+.carouselLink{
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.UnderLink{
+    font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif; ;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+.bottomNav {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 20px;
+}
 .row.no-gutter {
     margin-left: 0;
     margin-right: 0;
@@ -40,6 +76,12 @@ p3,p4,p5,p6,p7,p11,p13,p14,p15{
 .row.no-gutter > [class*='col-'] {
     padding-right: 0;
     padding-left: 0;
+}
+.transparent {
+    filter: alpha(opacity=40);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
 }
 .container-fluid{ padding-right: 0;
     padding-left: 0;}<!--修改container容器和栅格的间距为0，否则会有留白-->
